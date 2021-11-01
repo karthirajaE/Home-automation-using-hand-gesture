@@ -9,7 +9,7 @@ engine = pyttsx3.init()
 
 cap = cv2.VideoCapture(0)
 detector = HandDetector(detectionCon=0.8, maxHands=2)
-human = cv2.CascadeClassifier("gesture_automation/Resources/haarcascade_frontalface_default.xml")
+human = cv2.CascadeClassifier("haarcascade_frontalface_default.xml") #verify with your resource
 i = 0
 cap.set(10,50)
 c1, c2, c3, c4 = 0, 0, 0, 0
