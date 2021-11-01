@@ -17,3 +17,5 @@ step 4 - cross cheack the code whether the resource file in correct path and Vid
 step 5 - Apply VCC to your ESP32 Kit and connect with respective netork.
 
 step 6 - Make sure that your pc/laptop connected in that same netork
+
+step 7 - press space bar to end the loop
